@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: darkblue;
+    }
+#main-table {
+    font-family: serif;
+    border: 1px solid blue;
+    border-collapse: initial;
+}
+
+th {
+    font-size: 25px;
+    border: 1px solid blue;
+    border-collapse: initial;
+}
+
+td {
+    font-family: serif;
+    font-size: 17px;
+    border: 1px solid blue;
+    border-collapse: initial;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
